@@ -1,0 +1,58 @@
+<title>AC ADAM</title>
+<h1>UYE OL</h1>
+
+<form action="action_page.php">
+<hr>
+<fieldset>
+<legend>Kisisel Bilgiler: </legend>
+ <label for="ad"><b>Ad</b></label>
+ <input type="text"  name="ad" required>
+ <br>
+<br>
+
+  <label for="soyad"><b>Soyad</b></label>
+ <input type="text"  name="soyad" required>
+<br>
+ <br>
+ <label for="telefon"><b>Telefon</b></label>
+ <input type="text"  name="telefon" required>
+ <br>
+ <br>
+ <fieldset>
+ <legend>Adres Bilgileri: </legend>
+ <select name="Il">
+     <option value="Ankara">Ankara</option>
+     <option value="Istanbul">Istanbul</option>
+     <option value="Adana">Adana</option>
+     <option value="Izmir">Izmir</option>
+   </select>
+   <br>
+   <select name="Ilce">
+       <option value="Ankara">Cankaya</option>
+       <option value="Istanbul">Kecioren</option>
+       <option value="Adana">Emek</option>
+       <option value="Izmir">Mamak</option>
+     </select>
+     <br>
+     <label for="Mahalle"><b>Mahalle</b></label>
+    <input type="text"  name="Mahalle" required>
+    <br>
+    <label for="Cadde"><b>Cadde</b></label>
+   <input type="text"  name="Cadde" required>
+   <br>
+   <label for="Sokak"><b>Sokak</b></label>
+  <input type="text"  name="Sokak" required>
+  <br>
+  <label for="Cadde"><b>No</b></label>
+ <input type="text"  name="Cadde" required>
+
+
+     </fieldset>
+
+<br>
+  <input type="submit" value="Giris">
+  </fieldset>
+
+ </hr>
+
+ </form>
